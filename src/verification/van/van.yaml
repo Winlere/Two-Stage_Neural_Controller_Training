@@ -32,7 +32,9 @@ bab:
       adv_check: -1
       sb_coeff_thresh: 0.1  # Hyperparameter for "sb". Sometimes larger values like 0.01, 0.1 work better.
       sb_primary_spec: 2
-      enable_clip_domains: True
       reorder_bab: True
       # show_progress: True
 
+  clip_n_verify:
+    clip_input_domain:
+      enabled: True
